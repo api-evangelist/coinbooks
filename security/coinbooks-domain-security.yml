@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: coinbooks.xyz
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 10 02:59:30 2026 GMT
+  hsts: null
+domains:
+- domain: coinbooks.xyz
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
